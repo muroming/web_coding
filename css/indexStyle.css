@@ -41,7 +41,7 @@ ul.list-inline a:hover{
 
 /*==================== MAIN SCREEN ====================*/
 #main{
-    background: url(../imgs/theme_pic.jpg) no-repeat center center;
+    background: url(../imgs/back_pics/theme_pic.jpg) no-repeat center center;
     background-size: cover;
 }
 .main_header span{
@@ -98,13 +98,15 @@ ul.list-inline a:hover{
     border: none;
     margin-bottom: 10px;
     width: 110px;
+    height: 40px;
     padding: 5px;
     font-weight: bold;
+    background-color: transparent;
+    border: 3px solid rgba(64, 162, 240, 0.5);
 }
 #get_more{
     margin-right: 10px;
     background-color: rgba(76, 189, 176, 0.6);
-    border: 3px solid rgba(64, 162, 240, 0.5);
     color:white;
 }
 #get_more:hover{
@@ -120,8 +122,40 @@ ul.list-inline a:hover{
 }
 .card{
     margin-top: 10px;
+    border-radius: 20px;
+}
+#python:hover{
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.4), rgba(255, 255, 0, 0.4));
+}
+#cpp:hover{
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.4), rgba(255, 255, 255, 0.4));
+}
+#html:hover{
+    background: 
+}
+/*=============== JOB ===============*/
+#carousel_jobs{
+    margin-top: 40px;
+}
+
+.carousel-item img{
+    height: 500px;
+    margin: 0px auto;
+}
+
+.carousel-caption{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
 /*========== CONTACTS ==========*/
+footer{
+    margin-top: 30px;
+    background-color: rgb(76, 189, 176);
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+}
 .phone_num::before{
     content: url(../imgs/icons/phone.png);
     vertical-align: middle;
@@ -134,4 +168,10 @@ ul.list-inline a:hover{
 }
 .bank_data{
     text-align: right;
+}
+footer a, a:hover{
+    text-decoration: none;
+    color:white;
+    margin-left: 5px;
+    font-weight: bold;
 }
