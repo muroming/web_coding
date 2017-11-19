@@ -14,10 +14,39 @@ header{
 /*========== NAVIGATION ==========*/
 nav{
     background-color: rgb(76, 189, 176);
-    vertical-align:middle;
 }
 
-ul.list-inline a{
+#profile{
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+#profile h2::after{
+    content: url(../imgs/icons/menu.png);
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+#profile_menu{
+    /*visibility: hidden;*/
+    color: rgb(76, 189, 176);
+    text-transform: uppercase;
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+}
+
+.menu_item{
+    margin: 5px 20px;
+}
+
+#logout{
+    text-align: center;
+    margin-top: 15px;
+    border-top: 1px solid black;
+    padding: 5px 0px;
+}
+
+.menu a{
     display: inline-block;
     padding: 10px;
     text-transform: uppercase;
@@ -34,7 +63,7 @@ ul.list-inline{
     margin-bottom: 0px;
 }
 
-ul.list-inline a:hover{
+.menu a:hover{
     text-decoration: none;
     background: rgb(0, 249, 155);
 }
