@@ -1,0 +1,81 @@
+/*=========== NAVIGATION ===========*/
+
+/* --- TOP MENU --- */
+nav{
+    background-color: rgb(76, 189, 176);
+}
+
+.menu a{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px 10px 0px;
+        -webkit-transition: all 0.2s 0.02s ease;
+        -o-transition: all 0.2s 0.02s ease;
+        -moz-transition: all 0.2s 0.02s ease;
+    
+}
+
+ul.list-inline{
+    margin-bottom: 0px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background: rgb(0, 249, 155);
+    margin-left: 0px;
+}
+
+
+/* --- ASIDE MENU --- */
+#profile_courses{
+    position: fixed;
+    float: right;
+    height: 100%;
+    background-color: cadetblue;
+}
+#courses_menu{
+    list-style-type: none;
+    padding: 0px 7px;
+}
+.course_item li{
+    border: 2px solid gray;
+    margin: 40px 0px;
+    border-radius: 10px;
+}
+.course_item img{
+    width: 65px;
+}
+
+
+/* --- FRIEND LIST --- */
+
+#friend_list{    
+    height: 50%;
+    overflow: scroll;
+}
+
+.friend{
+    height: 60px;
+    margin: 10px;
+    border: 1.5px solid gray;
+}
+
+.friend img{
+    width: 50px;
+    display: inline-block;
+}
+
+.online{
+    background-color: rgba(50, 50, 250, 0.3);
+}
+.online h4::after{
+    content: "online";
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
